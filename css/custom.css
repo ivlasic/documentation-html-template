@@ -199,3 +199,60 @@
 .syntaxhighlighter .js.keyword {
     color: #b48ead !important;
 }
+/* Directory list style */
+
+.directory-list ul {
+  margin-left: 10px;
+  padding-left: 20px;
+  border-left: 1px dashed #ddd;
+}
+
+.directory-list li {
+  list-style: none;
+  color: #888;
+  /*font-size: 17px;*/
+  font-style: italic;
+  font-weight: normal;
+}
+
+.directory-list a {
+  border-bottom: 1px solid transparent;
+  /*color: #888;
+  text-decoration: none;*/
+  transition: all 0.2s ease;
+}
+
+.directory-list a:hover {
+  border-color: #eee;
+  /*color: #000;*/
+}
+
+.directory-list .folder,
+.directory-list .folder > a {
+  /*color: #777;*/
+  font-weight: bold;
+}
+
+
+/* The icons for Directory list style */
+
+.directory-list li:before {
+  margin-right: 10px;
+  content: "";
+  height: 20px;
+  vertical-align: middle;
+  width: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  /* file icon by default */
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path fill='lightgrey' d='M59.375 9.375h-31.223c-3.467 0-6.277 2.807-6.277 6.273v71.829c0 3.464 2.784 6.273 6.242 6.273h46.891c3.447 0 6.242-2.784 6.242-6.242v-53.133h-15.607c-3.462 0-6.268-2.771-6.268-6.244v-18.756zM62.5 9.375v18.741c0 1.731 1.409 3.134 3.096 3.134h15.654l-18.75-21.875z' /></svg>");
+  background-position: center 2px;
+  background-size: 80% auto;
+}
+
+.directory-list li.folder:before {
+  /* folder icon if folder class is specified */
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path fill='lightblue' d='M50 28.125l-6.25-12.5h-34.366c-3.457 0-6.259 2.78-6.259 6.222v56.305c0 3.437 2.812 6.222 6.229 6.222h78.167c3.44 0 6.229-2.789 6.229-6.235v-43.781c0-3.443-2.803-6.235-6.268-6.235h-37.482z' /></svg>");
+  background-position: center top;
+  background-size: 85% auto;
+}
