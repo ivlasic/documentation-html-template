@@ -5,10 +5,10 @@ A Sample HTML Documentation Template for Wordpress Themes, HTML Templates and Pl
 Download the package as ZIP and edit the HTML and CSS as you like.
 
 ## Demo
-Click this link for a live demo : http://surjithctly.github.io/documentation-html-template/
+Click this link for a live demo : https://surjithctly.github.io/documentation-html-template/
 
 ## Credits
-This is a modified version of [Template Visual's](http://themeforest.net/user/templatevisual?ref=surjithctly&utm_source=github_surjithctly_docs) Documentation : [Actual Documentation Link](https://forums.envato.com/t/free-documentation-for-all-envato-authors/39)
+This is a modified version of [Template Visual's](https://themeforest.net/user/templatevisual?ref=surjithctly&utm_source=github_surjithctly_docs) Documentation : [Actual Documentation Link](https://forums.envato.com/t/free-documentation-for-all-envato-authors/39)
 
 Forked from [Surjith S M](https://github.com/surjithctly) | [GitHub](https://github.com/surjithctly/documentation-html-template)
 
