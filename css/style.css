@@ -188,7 +188,7 @@ p {
 }
 
 .section {
-    padding: 180px 0;
+    padding: 0 0 180px 0;
     position: relative;
     display: block;
 }
