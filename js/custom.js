@@ -69,13 +69,19 @@
         $(".media").fitVids();
     });
 
-    /* ==============================================
-    VIDEO FIX -->
-    =============================================== */
 
-    $('.docs-sidebar>nav>li>a').click(function() {
-        $('.docs-sidebar>nav>li').removeClass('active');
-        $(this).parent().addClass('active');
+        /* ==============================================
+        AFFIX FIX -->
+        =============================================== */
+
+    $(window).on('scroll', function (event) {
+    var scrollValue = $(window).scrollTop();
+    if (scrollValue > 120) {
+        $('.docs-sidebar').addClass('affix');
+    } else{
+        $('.docs-sidebar').removeClass('affix');
+    }
     });
+
 
 })(jQuery);
