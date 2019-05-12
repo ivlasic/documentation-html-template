@@ -110,12 +110,12 @@
 @media (min-width: 992px) {
     /* hide inactive nested list */
     .docs-sidebar .nav ul.nav {
-        //display: none;
+        display: none;
         padding-bottom: 10px;
     }
     /* show active nested list */
     /* show sub menu when parent is active */
-    .docs-sidebar .nav>.active>ul.nav {
+    .docs-sidebar .nav a.active + ul.nav {
         display: block;
         border-bottom-color: #0E97EE; /* test ivan */
     }
